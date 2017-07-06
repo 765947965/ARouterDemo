@@ -41,7 +41,6 @@ public class TextActivity extends AppCompatActivity {
             ((TextView) findViewById(R.id.textView)).setText(str);
         }
         List<String> list = new ArrayList<>();
-        list.add("fsdfdsfsd");
         list.set(0, "aaaaaaaaaaaaa");
         final RecyclerView recyclerView1 = (RecyclerView) findViewById(R.id.recyclerView1);
         final RecyclerView recyclerView2 = (RecyclerView) findViewById(R.id.recyclerView2);

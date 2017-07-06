@@ -42,7 +42,6 @@ public class TextActivity extends AppCompatActivity {
         }
         List<String> list = new ArrayList<>();
         list.add("fsdfdsfsd");
-        list.add("流氓兔");
         list.set(0, "aaaaaaaaaaaaa");
         final RecyclerView recyclerView1 = (RecyclerView) findViewById(R.id.recyclerView1);
         final RecyclerView recyclerView2 = (RecyclerView) findViewById(R.id.recyclerView2);

@@ -52,7 +52,7 @@ public class TextActivity extends AppCompatActivity {
 
         recyclerView1.setAdapter(new RAdapter(this, getData(1)));
         recyclerView2.setAdapter(new RAdapter(this, getData(1)));
-        recyclerView1.getItemAnimator().setAddDuration(5000);
+        recyclerView1.getItemAnimator().setAddDuration(15000);
         recyclerView3.setAdapter(new RAdapter(this, getData(30)));
 //        recyclerView1.setItemAnimator(new MyDefaultItemAnimator());
 //        recyclerView1.getItemAnimator().setAddDuration(1550);
